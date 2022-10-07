@@ -7,14 +7,16 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to top, black, #1e1e1e);
 }
 
 main {
-    background-color: white;
+    background: rgb(255, 255, 255, 0.2);
     margin: 20px;
     padding: 25px;
     border-radius: 25px;
+    font-family: arial;
+  color: #f2f2f2;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 {
 }
 
 .message-container {
-    color: darkorange;
+    color: #ffcc00;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -62,7 +64,7 @@ button {
 table, 
 th, 
 td {
-    border: 1px solid darkorange;
+    border: 1px solid #ffcc00;
     margin: 0 auto;
 }
 
